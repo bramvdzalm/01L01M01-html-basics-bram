@@ -1,0 +1,36 @@
+body {
+    color:black;
+    background-color: rgb(236, 253, 226);
+    font-family: fantasy;
+    margin: 10px 30px 50px 40px;
+    border: 5px black;
+    
+}
+.black-border {
+    border: 2px solid black;
+    margin-right: 500px;
+}
+
+img {
+    width: 230px;
+    border-radius: 50px;
+    float: center;
+}
+li {
+    font-size: small;
+}
+a {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color:purple;
+}
+ul {
+    list-style: none;
+ }
+ p2 {
+     font-size: 20px;
+ }
