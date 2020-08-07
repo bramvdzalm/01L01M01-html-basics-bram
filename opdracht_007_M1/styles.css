@@ -1,0 +1,62 @@
+body {
+    color:black;
+    background-color: rgb(236, 253, 226);
+    font-family: fantasy;
+    margin: 0 auto;
+    border: 5px black;
+    padding: 30px;  
+}
+.black-border {
+    width: 950px;
+    border: 2px solid black;
+}
+.horizontaal {
+    display: inline;
+    padding: 10px;
+    border: 2px solid red;
+}
+li1 {
+    padding: 50px;
+}
+.verticaal {
+    width: 900px;
+    display: block;
+    border: 2px solid black;
+}
+img {
+    width: 230px;
+    border-radius: 50px;
+    float: center;
+    margin: 0 auto;
+}
+a {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color:purple;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+ p2 {
+    font-size: 20px;
+}
+@media (min-width: 1024px) {
+    body {
+        background-color: rgb(224, 252, 160);
+        color: red;
+        line-height: 50px;
+    }
+    h1 {                                                                                 
+        font-size: 50px;                                                                 
+    }    
+}
+#tekstblok {
+    width: 400px;
+    height: 150px;
+}
