@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+    <html>
+      <link rel="stylesheet" type="text/css" href="styles.css">
+           <head>
+                <title>Contact</title>
+           </head>
+           <body>
+            <header>
+              
+            </header>
+            <main>
+
+              <form name="contact" method="POST" data-netlify="true">
+              
+                <p><label>Naam: <input type="text" name="name" /></label></p>
+
+                <p><label>Your Email: <input type="email" name="email" /></label></p>
+
+                <p><label>telefoonnummer: <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></label></p> 
+
+                <p><label>Leeftijd: <input type="month" name="age" /></label></p>
+
+                <p><label>Geboortedatum: <input type="date" name="date" /></label></p>
+
+                
+
+                <label>Male: <input type="radio" id="male" name="gender" ></label><br>
+                <label>Female: <input type="radio" id="female" name="gender"></label><br>
+                <label>Other: <input type="radio" id="Other" name="gender" ></label><br>
+
+                <p>Van welk eten hou jij?</p>
+                <label><input type="checkbox" id="Frans"></label>Frans<br>
+                <label><input type="checkbox" id="Italiaans"></label>Italiaans<br>
+                <label><input type="checkbox" id="Spaans"></label>Spaans<br>
+                <label><input type="checkbox" id="Arabisch"></label>Arabisch<br>
+
+                
+                <label>Wat is jou favoriet kleur short<input type="color" id="favcolor" name="favcolor"></label>
+               
+
+                <p><label>Biografie: <textarea name="message"></textarea></label></p>
+
+                <p><label>Upload je recept:<input type="file" name="fileToUpload" id="fileToUpload"></label></p>
+
+                <p><label>Hier graag de link naar je recepten: <input type="url" id="recepten" name="recepten"></label></p>
+
+                <p><input type="reset"></p>
+
+                <p><button type="submit">Verstuur</button></p>
+
+            </form>
+            </main>
+            <nav>
+              <ul>
+                <li><a href="index.html">Home</a></li> 
+            </ul>
+            </nav>  
+            
+            
+            
+           </body>
+    </html>
